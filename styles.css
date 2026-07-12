@@ -52,3 +52,59 @@ footer {
     font-size: 14px;
     padding: 15px;
 }
+/* Smooth transition for navigation links */
+nav a {
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+    color: #ffd700;
+    background-color: #0f2a47;
+}
+
+/* Smooth zoom effect for main sections */
+section {
+    transition: transform 0.3s ease;
+}
+
+/* Zoom in when hovering over a section */
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Project table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Table borders and spacing */
+th,
+td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table header styling */
+th {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+/* Table caption styling */
+caption {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Table footer styling */
+tfoot {
+    font-weight: bold;
+    text-align: center;
+}
