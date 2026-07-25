@@ -108,3 +108,89 @@ tfoot {
     font-weight: bold;
     text-align: center;
 }
+/* Flexbox for the main content */
+main {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+/* Flexbox for the navigation menu */
+nav ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+}
+
+/* Flexbox for the contact form */
+#contact form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+/* Contact form fields */
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+   padding: 10px;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   transition: border-color 0.3s ease;
+}
+
+/* Form field focus effect */
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact textarea:focus {
+   border-color: #1e3a5f;
+   outline: none;
+}
+
+/* Submit button */
+#contact input[type="submit"] {
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: #1e3a5f;
+   color: white;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+/* Submit button hover and focus effects */
+#contact input[type="submit"]:hover,
+#contact input[type="submit"]:focus {
+   background-color: #0f2a47;
+}
+/* Phone display */
+@media screen and (min-width: 320px) {
+   main {
+      padding: 10px;
+   }
+
+   nav ul {
+      flex-direction: column;
+      gap: 10px;
+   }
+}
+
+/* Tablet display */
+@media screen and (min-width: 768px) {
+   main {
+      padding: 20px;
+   }
+
+   nav ul {
+      flex-direction: row;
+      gap: 20px;
+   }
+}
+
+/* Desktop display */
+@media screen and (min-width: 1024px) {
+   main {
+      max-width: 1200px;
+      margin: 0 auto;
+   }
+}
