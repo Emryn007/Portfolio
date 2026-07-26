@@ -32,7 +32,8 @@ The website was also tested and hosted locally using XAMPP.
 
 ### XAMPP Screenshot
 
-A screenshot of the website running locally will be added below.
+<img width="1914" height="1075" alt="Screenshot 2026-07-26 175947" src="https://github.com/user-attachments/assets/bb46cfdb-21cf-416a-956e-1720b82bad4c" />
+
 
 ## Author
 
